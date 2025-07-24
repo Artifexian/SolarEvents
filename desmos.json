@@ -88,8 +88,7 @@
       {
         "type": "folder",
         "id": "11",
-        "title": "Variable (DO NOT EDIT)",
-        "collapsed": true
+        "title": "Variable (DO NOT EDIT)"
       },
       {
         "type": "text",
@@ -102,7 +101,7 @@
         "id": "14",
         "folderId": "11",
         "color": "#388c46",
-        "latex": "P=600.226772086508",
+        "latex": "P=",
         "slider": {
           "hardMin": true,
           "hardMax": true,
@@ -115,7 +114,7 @@
         "id": "15",
         "folderId": "11",
         "color": "#6042a6",
-        "latex": "w=218",
+        "latex": "w\\ =",
         "slider": {
           "hardMin": true,
           "hardMax": true,
@@ -128,7 +127,7 @@
         "id": "16",
         "folderId": "11",
         "color": "#000000",
-        "latex": "d=22.8",
+        "latex": "d=",
         "slider": {
           "hardMin": true,
           "hardMax": true,
@@ -141,7 +140,7 @@
         "id": "17",
         "folderId": "11",
         "color": "#c74440",
-        "latex": "e_{t}=21",
+        "latex": "e_{t}\\ =",
         "slider": {
           "hardMin": true,
           "hardMax": true,
@@ -155,11 +154,9 @@
         "id": "18",
         "folderId": "11",
         "color": "#2d70b3",
-        "latex": "s=0.387896837028274",
+        "latex": "s=",
         "slider": {
-          "hardMin": true,
           "hardMax": true,
-          "min": "0.001",
           "max": "2"
         }
       },
@@ -168,7 +165,7 @@
         "id": "19",
         "folderId": "11",
         "color": "#388c46",
-        "latex": "e_{c}=0.00742",
+        "latex": "e_{c}=",
         "slider": {
           "hardMin": true,
           "hardMax": true,
@@ -181,7 +178,7 @@
         "id": "20",
         "folderId": "11",
         "color": "#6042a6",
-        "latex": "l_{s}=0",
+        "latex": "l_{s}=",
         "slider": {
           "hardMin": true,
           "hardMax": true,
@@ -277,7 +274,10 @@
         "latex": "\\left(\\operatorname{sign}\\left(\\varphi\\right)-\\min\\left(\\left|\\varphi\\right|-1,0\\right)\\right)\\cdot100\\sim s_{eq}\\left(x_{rveq}\\right)\\left\\{0\\le x_{rveq}<P\\right\\}",
         "residualVariable": "e_{eq}",
         "regressionParameters": {
-          "x_{rveq}": 0.0000026731875594015592
+          "e_{t}": 30.00598368358756,
+          "e_{c}": 0.12994528460443489,
+          "P": 18.89095775163948,
+          "x_{rveq}": 1.143027235683713
         }
       },
       {
@@ -288,7 +288,10 @@
         "latex": "\\left(\\operatorname{sign}\\left(\\varphi\\right)-\\min\\left(\\left|\\varphi\\right|-1,0\\right)\\right)\\cdot100\\sim s_{so}\\left(x_{rsso}\\right)\\left\\{0\\le x_{rsso}<P\\right\\}",
         "residualVariable": "e_{so}",
         "regressionParameters": {
-          "x_{rsso}": 149.33548304537914
+          "e_{t}": -499.9437122263639,
+          "e_{c}": 0.06217247402594825,
+          "P": 1.2233244245302723,
+          "x_{rsso}": 0.9288842916782751
         }
       },
       {
@@ -299,7 +302,10 @@
         "latex": "\\left(\\operatorname{sign}\\left(\\varphi\\right)-\\min\\left(\\left|\\varphi\\right|-1,0\\right)\\right)\\cdot-100\\sim s_{eq}\\left(x_{raeq}\\right)\\left\\{0\\le x_{raeq}<P\\right\\}",
         "residualVariable": "e_{raeq}",
         "regressionParameters": {
-          "x_{raeq}": 300.1133965217299
+          "e_{t}": -2.7155694824180565,
+          "e_{c}": 0.932893786557477,
+          "P": 9.14748086479077,
+          "x_{raeq}": 0.06794738491600312
         }
       },
       {
@@ -310,7 +316,10 @@
         "latex": "\\left(\\operatorname{sign}\\left(\\varphi\\right)-\\min\\left(\\left|\\varphi\\right|-1,0\\right)\\right)\\cdot-100\\sim s_{so}\\left(x_{rwso}\\right)\\left\\{0\\le x_{rwso}<P\\right\\}",
         "residualVariable": "e_{rwso}",
         "regressionParameters": {
-          "x_{rwso}": 450.8912841683524
+          "e_{t}": -12.629239049458441,
+          "e_{c}": -0.06511033943518957,
+          "P": 9.201896186672911,
+          "x_{rwso}": 2.15152499716145
         }
       },
       {
