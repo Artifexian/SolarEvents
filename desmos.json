@@ -18,10 +18,10 @@
     "degreeMode": true,
     "squareAxes": false,
     "__v12ViewportLatexStash": {
-      "xmin": "-100",
-      "xmax": "800",
-      "ymin": "-8",
-      "ymax": "30"
+      "xmin": "-0.09P",
+      "xmax": "P+0.09P",
+      "ymin": "-0.095d",
+      "ymax": "d+0.03d"
     }
   },
   "expressions": {
@@ -83,7 +83,7 @@
       {
         "type": "text",
         "id": "10",
-        "text": "And we're done! The graph now displays the number of daylight hours on the day you've selected at the location you've selected.\n\nIn addition, the graph also tells when your solstices and equinoxes occur (top of the graph) and on what days your planet is closest or furthest away from your star (bottom of the graph)\n\nThanks to rue_cr for putting this together. Big love."
+        "text": "And we're done! The graph now displays the number of daylight hours on the day you've selected at the location you've selected.\n\nIn addition, the graph also tells you when your solstices and equinoxes occur (top of the graph) and on what days your planet is closest or furthest away from your star (bottom of the graph)\n\nThanks to rue_cr for putting this together. Big love."
       },
       {
         "type": "folder",
