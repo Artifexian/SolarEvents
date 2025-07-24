@@ -743,7 +743,8 @@
       {
         "type": "folder",
         "id": "11",
-        "title": "Variables (DO NOT EDIT)"
+        "title": "Variables (DO NOT EDIT)",
+        "collapsed": true
       },
       {
         "type": "text",
