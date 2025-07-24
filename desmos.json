@@ -13,7 +13,7 @@
     "yAxisStep": 4,
     "xAxisMinorSubdivisions": 1,
     "yAxisMinorSubdivisions": 1,
-    "xAxisLabel": “Time (days)”,
+    "xAxisLabel": "Time (days)",
     "yAxisLabel": "Daylight (hr)",
     "degreeMode": true,
     "squareAxes": false,
