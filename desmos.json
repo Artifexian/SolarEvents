@@ -73,7 +73,9 @@
         "color": "#c74440",
         "latex": "a_{x}=0",
         "slider": {
+          "hardMin": true,
           "hardMax": true,
+          "min": "a_{xmin}",
           "max": "a_{xmax}",
           "step": "1"
         }
