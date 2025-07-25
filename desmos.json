@@ -3,10 +3,10 @@
   "randomSeed": "489799930b7f87572ad010a2d2766022",
   "graph": {
     "viewport": {
-      "xmin": -100,
-      "ymin": -8,
-      "xmax": 800,
-      "ymax": 30
+      "xmin": -70.29126213592218,
+      "ymin": -8.296411856474254,
+      "xmax": 829.7087378640779,
+      "ymax": 29.703588143525746
     },
     "showGrid": false,
     "xAxisStep": 10,
@@ -18,10 +18,10 @@
     "degreeMode": true,
     "squareAxes": false,
     "__v12ViewportLatexStash": {
-      "xmin": "-0.09P",
-      "xmax": "P+0.09P",
-      "ymin": "-0.095d",
-      "ymax": "d+0.03d"
+      "xmin": "-70.29126213592218",
+      "xmax": "829.7087378640779",
+      "ymin": "-8.296411856474254",
+      "ymax": "29.703588143525746"
     }
   },
   "expressions": {
@@ -515,21 +515,21 @@
         "id": "75",
         "folderId": "59",
         "color": "#c74440",
-        "latex": "a_{count1st}=\\operatorname{sign}\\left(\\left|\\operatorname{mod}\\left(a_{count},10\\right)-1\\right|\\right)"
+        "latex": "a_{count1st}=\\operatorname{sign}\\left(\\left|\\operatorname{mod}\\left(\\operatorname{round}\\left(a_{count}\\right),10\\right)-1\\right|\\right)"
       },
       {
         "type": "expression",
         "id": "76",
         "folderId": "59",
         "color": "#2d70b3",
-        "latex": "a_{count2nd}=\\operatorname{sign}\\left(\\left|\\operatorname{mod}\\left(a_{count},10\\right)-2\\right|\\right)"
+        "latex": "a_{count2nd}=\\operatorname{sign}\\left(\\left|\\operatorname{mod}\\left(\\operatorname{round}\\left(a_{count}\\right),10\\right)-2\\right|\\right)"
       },
       {
         "type": "expression",
         "id": "77",
         "folderId": "59",
         "color": "#388c46",
-        "latex": "a_{count3rd}=\\operatorname{sign}\\left(\\left|\\operatorname{mod}\\left(a_{count},10\\right)-3\\right|\\right)"
+        "latex": "a_{count3rd}=\\operatorname{sign}\\left(\\left|\\operatorname{mod}\\left(\\operatorname{round}\\left(a_{count}\\right),10\\right)-3\\right|\\right)"
       },
       {
         "type": "expression",
